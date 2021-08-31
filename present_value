@@ -1,0 +1,10 @@
+# Future Value
+future_value = float(input("Enter the desired future value: "))
+# Interest Rate
+rate = float(input("Enter the interest rate: "))
+# 'n' number of years interest compounded
+years = int(input('Enter the number of years your money will grow: '))
+# Present Value Calculation
+present_value = future_value / (1.0 + rate)**years 
+
+print("You will need to deposit this amount: $", format(present_value, ',.2f'), sep="")
