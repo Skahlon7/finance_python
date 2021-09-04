@@ -10,5 +10,5 @@ shares = int(input("Shares: "))
 print(f'Purchace amount: ${shares*stock_p:.2f}')
 print(f'Selling amount:  ${shares*stock_s:.2f}')
 print(f'Comission cost:  ${(shares*stock_s)*.015:.2f}')
-print(f'Profit/Loss:     ${(shares*stock_s) - (shares*stock_p) - ((shares*stock_s)*.03):.2f}')
+print(f'Profit/Loss:     ${(shares*stock_s) - (shares*stock_p) - ((shares*stock_s)*.015):.2f}')
 
