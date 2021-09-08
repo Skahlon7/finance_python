@@ -1,7 +1,7 @@
 # Future Value
 future_value = float(input("Enter the desired future value: "))
 # Interest Rate
-rate = float(input("Enter the interest rate: "))
+rate = float(input("Enter the interest rate: "))/100
 # 'n' number of years interest compounded
 years = int(input('Enter the number of years your money will grow: '))
 # Present Value Calculation
